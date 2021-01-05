@@ -14,8 +14,8 @@
 
 {
   "identifier":  "bedroom-lamp",
-  "name": "Bedroom Lamp"
-  "type": "huelight"
+  "name": "Bedroom Lamp",
+  "type": "huelight",
   "state": {
     "brightness": {
       "type": "int",
