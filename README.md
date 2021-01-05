@@ -3,11 +3,15 @@
 # copied from here: https://www.youtube.com/watch?v=Wz8GnB-LI5w
 
 ###Get device state 
+
 **Definition**
+
 `GET service.controller.hue/device/<device-identifier>`
 
 **Response**
+
 — `200 OK` on success
+
 — `404 NOT FOUND` if the device does not exist 
 
 ```json
@@ -23,16 +27,18 @@
       "max": 100,
       "value": 73
     },
-    "power: {
-    "type": "bool",
-    "value": true
-    }
-  }
+    "power": {
+      "type": "bool",
+      "value": true
+      }
+   }
 }
 ```
 
 ### Update a device
+
 **Definition**
+
 `PATCH service.controller.hue/device/<device-identifier>`
 
 **Arguments**
